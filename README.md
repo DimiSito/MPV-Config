@@ -34,21 +34,20 @@ A comprehensive MPV player configuration tailored for high-quality video playbac
    - Place in `~~/shaders/` directory
    - Recommended: FSRCNNX, NNEDI3, Anime4K variants
 
-## 📁 File Structure
+## 📁 Repository Structure
 
-mpv/
-├── input.conf          # Keybindings and shortcuts
-├── mpv.conf           # Main configuration
-├── fonts.conf         # Font configuration
-├── profiles.conf      # Video/audio profiles
-├── shaders/           # GLSL shaders directory
-│   ├── F8.glsl
-│   ├── F16.glsl
-│   ├── nnedi3_*.glsl
-│   └── ...
-└── cache/             # Cache directories
-    ├── watch_later/
-    └── shaders_cache/
+| Path | Description |
+|------|-------------|
+| `mpv/input.conf` | Keybindings and shortcuts |
+| `mpv/mpv.conf` | Main configuration |
+| `mpv/fonts.conf` | Font configuration |
+| `mpv/profiles.conf` | Video/audio profiles |
+| `mpv/shaders/` | GLSL shaders directory |
+| `mpv/shaders/F8.glsl` | FSRCNNX shader |
+| `mpv/shaders/F16.glsl` | Enhanced FSRCNNX |
+| `mpv/shaders/nnedi3_*.glsl` | Neural network shaders |
+| `mpv/cache/watch_later/` | Resume playback data |
+| `mpv/cache/shaders_cache/` | Compiled shader cache |
 
 ## 🎮 Keybindings
 
