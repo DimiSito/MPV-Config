@@ -37,29 +37,17 @@ A comprehensive MPV player configuration tailored for high-quality video playbac
 ## 📁 File Structure
 
 mpv/
-
 ├── input.conf          # Keybindings and shortcuts
-
 ├── mpv.conf           # Main configuration
-
 ├── fonts.conf         # Font configuration
-
 ├── profiles.conf      # Video/audio profiles
-
 ├── shaders/           # GLSL shaders directory
-
 │   ├── F8.glsl
-
 │   ├── F16.glsl
-
 │   ├── nnedi3_*.glsl
-
 │   └── ...
-
 └── cache/             # Cache directories
-
     ├── watch_later/
-    
     └── shaders_cache/
 
 ## 🎮 Keybindings
